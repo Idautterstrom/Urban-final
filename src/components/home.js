@@ -62,7 +62,8 @@ export const Home = () => {
         <div className="header-text">
           <Name>Urban Rhodin</Name>
           <Role>
-            Experienced HR Executive,<br></br>Consultant &amp; Coach.
+            Senior Leadership developer &amp; coach, <br></br>HR &amp;
+            Management consultant
           </Role>
           <Pitch>
             Helping companies, teams and individuals develop their full
