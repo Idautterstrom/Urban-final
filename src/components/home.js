@@ -18,7 +18,6 @@ const Role = styled.h2`
 
 const Pitch = styled.p`
   font-size: 20px;
-  width: 300px;
   color: whitesmoke;
   @media (min-width: 768px) {
     width: 350px;

@@ -20,7 +20,6 @@ const MainNav = styled.ul`
   display: none;
   @media (min-width: 768px) {
     display: flex;
-    gap: 20px;
   }
 `;
 
