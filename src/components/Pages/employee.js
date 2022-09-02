@@ -12,13 +12,17 @@ const Heading = styled.h1`
   color: #264143;
 `;
 
+const Text = styled.p`
+  text-align: left;
+`;
+
 const Div = styled.div`
   padding: 40px;
   margin: 40px;
   background-color: #eddcd9;
   @media (min-width: 768px) {
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 400px;
+    margin-right: 400px;
   }
 `;
 
@@ -30,7 +34,6 @@ const ListItem = styled.li`
 
 const SmallHeading = styled.h5`
   text-align: left;
-  margin-left: 30px;
 `;
 
 const Picture = styled.div`
@@ -38,8 +41,8 @@ const Picture = styled.div`
   @media (min-width: 768px) {
     display: flex;
     position: absolute;
-    margin-left: 55%;
-    margin-top: 150px;
+    margin-left: 28%;
+    margin-top: 13%;
     height: 300px;
     border: solid 10px #ffffff;
     border-radius: 2px;
@@ -55,17 +58,17 @@ export const Employee = () => {
             <img src={ProPic} alt="Urban" />
           </Picture>
           <Heading>People &amp; Team development</Heading>
-          <p>
+          <Text>
             Just as leaders need training in good leadership, everyone
             (individual employees and teams) constantly needs to nurture,
             develop knowledge and skills, reflect, and learn to grow to become
             the best version of themselves.
-          </p>
-          <p>
+          </Text>
+          <Text>
             I offer Inspirational lectures, webinars, tailor-made trainings and
             mentoring, coaching and team development according to wishes and
             needs both digitally and IRL.
-          </p>
+          </Text>
           <div>
             <SmallHeading>Examples of seminars and trainings: </SmallHeading>
             <ul>
