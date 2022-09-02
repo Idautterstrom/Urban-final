@@ -13,8 +13,7 @@ const Heading = styled.h1`
 `;
 
 const Text = styled.p`
-  text-align: left;
-`;
+  text-align: left;`
 
 const Div = styled.div`
   padding: 40px;
