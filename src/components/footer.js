@@ -19,13 +19,13 @@ const Container = styled.div`
 
 const Logo = styled.a`
   display: flex;
-  height: 20px;
-  margin-top: -10px;
+  height: 12px;
+  margin-top: -6px;
 `;
 
 const Text = styled.p`
   font-family: "poppins", serif;
-  font-size: 12px;
+  font-size: 8px;
   text-align: center;
 `;
 
