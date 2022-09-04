@@ -11,9 +11,11 @@ import Leadership from "./components/Pages/leadership";
 import Employee from "./components/Pages/employee";
 
 const Body = styled.div`
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+  @media (min-width: 768px) {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
 `;
 
 export const App = () => {
