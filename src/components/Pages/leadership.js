@@ -17,7 +17,7 @@ const Heading = styled.h1`
   color: #264143;
 `;
 
-const HeadingSmall = styled.h3`
+const HeadingSmall = styled.h3`s
   display: flex;
   text-align: left;
 `;

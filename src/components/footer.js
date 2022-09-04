@@ -2,35 +2,45 @@ import React from "react";
 import styled from "styled-components";
 import logo from "../components/img/ida-logo.jpeg";
 
-const Logo = styled.div`
-  display: none;
-  @media (min-width: 768px) {
-    display: flex;
-    height: 15px;
-    padding: 10px;
-    justify-content: center;
-    margin-bottom: 0;
-  }
+const FooterContainer = styled.section`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  margin-top: auto;
+`;
+
+const Container = styled.div`
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+`;
+
+const Logo = styled.a`
+  display: flex;
+  height: 20px;
+  margin-top: -10px;
 `;
 
 const Text = styled.p`
-  display: none;
-  @media (min-width: 768px) {
-    font-size: 10px;
-    display: flex;
-    justify-content: center;
-    margin-bottom: -5px;
-  }
+  font-family: "poppins", serif;
+  font-size: 12px;
+  text-align: center;
 `;
 
 export const Footer = () => {
   return (
-    <section>
-      <div>
+    <FooterContainer>
+      <Container>
         <Text>Website made by</Text>
-        <Logo>{<img src={logo} alt="Logo" />}</Logo>
-      </div>
-    </section>
+      </Container>
+      <Container>
+        <Logo href="https://www.instagram.com/idaswebdev/?hl=en">
+          {<img src={logo} alt="Logo" />}
+        </Logo>
+      </Container>
+    </FooterContainer>
   );
 };
 

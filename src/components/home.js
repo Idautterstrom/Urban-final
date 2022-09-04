@@ -113,23 +113,6 @@ export const Home = () => {
         </div>
       </section>
       <section className="second-container">
-        {/* <div className="offer">
-          <h2>What I offer</h2>
-          <div className="offer-container">
-            <a href="/consulting" className="offer-text">
-              <h2>HR &amp; Management consulting</h2>
-              <p></p>
-            </a>
-            <a href="/leadership" className="offer-text">
-              <h2>Leadership development</h2>
-              <p></p>
-            </a>
-            <a href="/employee" className="offer-text">
-              <h2>People &amp; Team development</h2>
-              <p></p>
-            </a>
-          </div>
-        </div> */}
         <div className="contact">
           <h2 className="small-header">Contact</h2>
           <div className="contact-container">
