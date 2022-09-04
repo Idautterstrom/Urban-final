@@ -3,11 +3,14 @@ import styled from "styled-components";
 import logo from "../components/img/ida-logo.jpeg";
 
 const FooterContainer = styled.section`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 10px;
-  margin-top: auto;
+  display: none;
+  @media (min-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    margin-top: auto;
+  }
 `;
 
 const Container = styled.div`
