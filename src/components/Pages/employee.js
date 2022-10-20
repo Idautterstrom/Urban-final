@@ -13,12 +13,13 @@ const Heading = styled.h1`
 `;
 
 const Text = styled.p`
-  text-align: left;`
+  text-align: left;
+`;
 
 const Div = styled.div`
   padding: 40px;
   margin: 40px;
-  background-color: #eddcd9;
+  background-color: #d9d6cf;
   @media (min-width: 768px) {
     margin-left: 400px;
     margin-right: 400px;

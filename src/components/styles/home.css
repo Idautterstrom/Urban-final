@@ -62,7 +62,7 @@ color: green;
   grid-template-columns: 1fr;
   padding: 50px;
   align-items: center;
-  background-color: #eddcd9;
+  background-color: #d9d6cf;
   border-radius: 2px;
 }
 
@@ -100,7 +100,7 @@ input {
   font-weight: bold;
   margin-bottom: 15px;
   margin-top: 10px;
-  background-color: #f2ebe9;;
+  background-color: #d9d6cf;;
 }
 
 .message-input {

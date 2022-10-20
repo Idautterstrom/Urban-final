@@ -32,7 +32,7 @@ const ProfilePic = styled.div`
     left: 45%;
     top: 30%;
     height: 200px;
-    border: solid 10px #eddcd9;
+    border: solid 10px #d9d6cf;
     border-radius: 2px;
   }
 `;
@@ -48,9 +48,7 @@ const Citat = styled.p`
   font-size: 20px;
   font-family: "DM Serif Display", serif;
   color: #264143;
-  &:hover {
-    font-weight: bold;
-  }
+  text-decoration: none;
 `;
 
 export const Home = () => {
@@ -78,22 +76,31 @@ export const Home = () => {
           <h2 className="small-header">About me</h2>
           <div>
             <About>
-              With my extensive experience and demonstrated track record in
-              international HR executive roles, I started my own business in
-              2021 offering HR &amp; Management consulting and Leadership
-              development to support organizations, teams, and individuals to
-              unleash potential and achieve goals. I'm genuinely passionate
-              about what I do, and bring positive energy to all my clients.
+              I’m a passionate consultant and coach who loves to optimize people
+              and organizations! I bring my never ending passion and positive
+              energy to all my clients and in everything I do.
+            </About>
+            <About>
+              After 30 years in in the corporate world and having been in
+              several international HR roles, I’ve gained extensive experience
+              and insight into what makes people and organizations “tick”.
+            </About>
+            <About>
+              To build on my experience and fully unlock my passion for what
+              makes me “tick”, I started my own business in 2021 offering
+              services within Leadership development, HR- &amp; Management
+              Consulting to support organizations, teams, and individuals to
+              unleash potential and achieve goals.
             </About>
             <About>
               I'm a certified leadership coach, have a B.Sc. in Human Resources
-              and Labor relations, as well as many years of experience from
-              various manager &amp; executive roles, and leadership teams in
-              different industries &amp; companies.
+              and Labor relations, many years’ experience from various
+              leadership roles and leadership teams in different industries
+              &amp; companies.
             </About>
             <About>
-              I'm also certified in many different tools I use based on the
-              needs both for individual and team development in my coaching and
+              I'm certified in many different tools I use based on the needs
+              both for individual and team development in my coaching and
               consulting. Examples of what I have in my toolbox; Leadership
               Effectiveness Analyses (LEA), Management Team Assessment Model
               (MTAM), Belbin Team Roles, PulsAnalys, TalentQ / Korn Ferry

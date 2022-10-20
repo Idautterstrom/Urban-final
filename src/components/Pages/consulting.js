@@ -13,7 +13,7 @@ const Heading = styled.h1`
 
 const HR = styled.div`
   padding: 40px;
-  background-color: #eddcd9;
+  background-color: #d9d6cf;
 `;
 
 const Mng = styled.div`

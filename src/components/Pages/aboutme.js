@@ -28,7 +28,7 @@ const References = styled.div`
 `;
 
 const TestimonalBox = styled.div`
-  background-color: #eddcd9;
+  background-color: #d9d6cf;
   padding: 20px;
   border-radius: 2px;
   position: relative;
@@ -56,7 +56,7 @@ const Picture = styled.div`
     display: flex;
     position: absolute;
     height: 500px;
-    border: solid 10px #eddcd9;
+    border: solid 10px #d9d6cf;
     border-radius: 2px;
   }
 `;

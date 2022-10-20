@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import ProPicture from "../img/urban2.JPG";
 
 const Page = styled.div`
   display: grid;
@@ -9,7 +8,7 @@ const Page = styled.div`
 
 const About = styled.div`
   padding: 40px;
-  background-color: #eddcd9;
+  background-color: #d9d6cf;
 `;
 
 const Heading = styled.h1`
@@ -35,7 +34,7 @@ const Info = styled.div`
   @media (min-width: 768px) {
     grid-template-columns: 1fr 1fr;
     gap: 40px;
-    margin-left: 400px;
+    margin-left: 100px;
     margin-right: 100px;
   }
 `;
@@ -46,17 +45,6 @@ const InfoText = styled.p`
 
 const Div = styled.div`
   padding: 40px;
-`;
-
-const Picture = styled.div`
-  display: none;
-  @media (min-width: 768px) {
-    display: flex;
-    position: absolute;
-    height: 500px;
-    border: solid 10px #eddcd9;
-    border-radius: 2px;
-  }
 `;
 
 export const Leadership = () => {
@@ -75,9 +63,6 @@ export const Leadership = () => {
             innovation, efficiency, productivity, profitability and competitive
             advantage!
           </Text>
-          <Picture>
-            <img src={ProPicture} alt="Urban" />
-          </Picture>
         </About>
         <Div>
           <Heading>What I offer</Heading>
