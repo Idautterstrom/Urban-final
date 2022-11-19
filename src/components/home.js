@@ -59,8 +59,8 @@ export const Home = () => {
         <div className="header-text">
           <Name>Urban Rhodin</Name>
           <Role>
-            Senior Leadership developer &amp; coach, <br></br>HR &amp;
-            Management consultant
+            Leadership developer &amp; coach, <br></br>HR &amp; Management
+            consultant
           </Role>
           <Pitch>
             Helping companies, teams and individuals develop their full
@@ -109,7 +109,7 @@ export const Home = () => {
           </div>
         </div>
         <div className="client-container">
-          <a href="/aboutme" className="ref-container">
+          <a href="/testimonials" className="ref-container">
             <Citat>
               "You have managed to bring out the best in us and to get everyone
               on the journey to develop as a team. You bring energy and

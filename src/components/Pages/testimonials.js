@@ -61,7 +61,7 @@ const Picture = styled.div`
   }
 `;
 
-export const Aboutme = () => {
+export const Testimonals = () => {
   return (
     <section>
       <Page>
@@ -136,4 +136,4 @@ export const Aboutme = () => {
   );
 };
 
-export default Aboutme;
+export default Testimonals;

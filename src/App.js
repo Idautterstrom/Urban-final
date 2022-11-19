@@ -5,7 +5,7 @@ import styled from "styled-components";
 import Navbar from "./components/navbar";
 import Home from "./components/home";
 import Footer from "./components/footer";
-import Aboutme from "./components/Pages/aboutme";
+import Testimonials from "./components/Pages/testimonials";
 import Consulting from "./components/Pages/consulting";
 import Leadership from "./components/Pages/leadership";
 import Employee from "./components/Pages/employee";
@@ -25,7 +25,7 @@ export const App = () => {
         <Navbar />
         <Routes>
           <Route exact path="/" element={<Home />} />
-          <Route path="/aboutme" element={<Aboutme />} />
+          <Route path="/testimonials" element={<Testimonials />} />
           <Route path="/consulting" element={<Consulting />} />
           <Route path="/leadership" element={<Leadership />} />
           <Route path="/employee" element={<Employee />} />
