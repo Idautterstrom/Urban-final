@@ -35,7 +35,7 @@ export default function Navbar() {
               <a href="/">Home</a>
             </li>
             <li className="items">
-              <a href="/aboutme">Testimonals</a>
+              <a href="/testimonials">Testimonals</a>
             </li>
             <li className="items">
               <a href="/consulting">HR &amp; Management consulting</a>
