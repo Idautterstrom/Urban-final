@@ -18,7 +18,7 @@ const Form = () => {
     fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: encode({ "form-name": "waitlist", name, email, message }),
+      body: encode({ "form-name": "contact", name, email, message }),
     })
       .then(() => {
         setSubmitting(false);
@@ -55,7 +55,7 @@ const Form = () => {
       data-netlify="true"
       data-netlify-honeypot="bot-field"
     >
-      <input type="hidden" name="contact" value="contact" />
+      <input type="hidden" name="form-name" value="contact" />
 
       <label className="label">Your name</label>
       <input
