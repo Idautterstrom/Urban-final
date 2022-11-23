@@ -51,6 +51,7 @@ const Form = () => {
     <form
       onSubmit={handleSubmit}
       className="form"
+      method="post"
       data-netlify="true"
       data-netlify-honeypot="bot-field"
     >
