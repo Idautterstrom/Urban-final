@@ -6,7 +6,7 @@ const Form = () => {
   const [message, setMessage] = useState("");
 
   return (
-    <form className="form" data-netlify="true">
+    <form className="form" data-netlify="true" netlify>
       <label className="label">Your name</label>
       <input
         type="text"
