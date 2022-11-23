@@ -1,31 +1,61 @@
 import React, { useState } from "react";
 
+const encode = (data) => {
+  return Object.keys(data)
+    .map((key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+    .join("&");
+};
+
 const Form = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
+  const [submitting, setSubmitting] = useState(false);
+  const [submitted, setSubmitted] = useState("");
 
-  handleSubmit = (e) => {
+  const handleSubmit = (e) => {
+    setSubmitting(true);
     fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: encode({ "form-name": "contact", ...this.state }),
+      body: encode({ "form-name": "waitlist", name, email, message }),
     })
-      .then(() => alert("Success!"))
+      .then(() => {
+        setSubmitting(false);
+        setSubmitted("Thank you for your kind words!");
+      })
       .catch((error) => alert(error));
 
     e.preventDefault();
   };
 
+  if (submitting) {
+    return (
+      <div className="transition ease-in-out duration-300 pb-10 m-auto bg-white text-center pt-20 success">
+        <p className="text-2xl font-bold mb-8 text-main-color">
+          Sending message..
+        </p>
+      </div>
+    );
+  }
+
+  if (submitted) {
+    return (
+      <div className="transition ease-in-out duration-300 pb-10 m-auto bg-white text-center pt-20 success">
+        <p className="text-main-color">Thanks for your message!.</p>
+      </div>
+    );
+  }
+
   return (
     <form
-      data-netlify="true"
-      name="pizzaOrder"
-      method="post"
-      action="/pages/success"
       onSubmit={handleSubmit}
+      className="form"
+      data-netlify="true"
+      data-netlify-honeypot="bot-field"
     >
       <input type="hidden" name="form-name" value="contact" />
+
       <label className="label">Your name</label>
       <input
         type="text"
